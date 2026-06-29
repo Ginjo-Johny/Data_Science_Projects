@@ -1,0 +1,219 @@
+
+Call:
+hclust(d = dist_students, method = "ward.D2")
+
+Cluster method   : ward.D2 
+Distance         : euclidean 
+Number of objects: 3630 
+
+K-means clustering with 3 clusters of sizes 502, 2398, 730
+
+Cluster means:
+  Age.at.enrollment Curricular.units.1st.sem..credited. Curricular.units.1st.sem..enrolled.
+1          37.18127                          3.73904382                            8.860558
+2          19.98540                          0.35237698                            6.403253
+3          25.44384                          0.02191781                            4.386301
+  Curricular.units.1st.sem..evaluations. Curricular.units.1st.sem..approved.
+1                              12.390438                           7.1772908
+2                               8.336947                           5.6576314
+3                               4.227397                           0.3054795
+  Curricular.units.1st.sem..grade. Curricular.units.1st.sem..without.evaluations.
+1                        12.112224                                      0.3007968
+2                        12.902121                                      0.0646372
+3                         1.673858                                      0.2219178
+  Curricular.units.2nd.sem..credited. Curricular.units.2nd.sem..enrolled.
+1                         2.942231076                            8.047809
+2                         0.263135947                            6.486656
+3                         0.005479452                            4.467123
+  Curricular.units.2nd.sem..evaluations. Curricular.units.2nd.sem..approved.
+1                              10.816733                          6.12350598
+2                               8.460384                          5.54962469
+3                               3.372603                          0.02739726
+  Curricular.units.2nd.sem..grade. Curricular.units.2nd.sem..without.evaluations.
+1                        11.487356                                     0.27490040
+2                        12.714383                                     0.07923269
+3                         0.240411                                     0.25753425
+  Unemployment.rate Inflation.rate        GDP
+1          11.87590       1.256175 -0.5055378
+2          11.58182       1.200042  0.1497456
+3          11.62096       1.318356 -0.1902877
+
+Clustering vector:
+   [1] 3 2 3 2 1 1 2 3 2 2 2 2 3 2 2 2 2 2 3 2 2 2 2 2 2 2 1 3 3 1 1 2 3 2 2 2 3 2 2 2 2 2 2 2 2
+  [46] 3 2 2 2 2 1 3 2 2 2 3 2 2 2 2 2 2 1 2 3 1 1 2 2 2 3 2 3 1 1 2 2 2 2 3 3 1 3 2 3 2 2 2 2 2
+  [91] 2 2 2 2 2 3 2 2 3 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ [136] 2 2 2 2 2 2 2 2 2 1 1 3 3 3 2 2 3 2 2 3 3 2 3 2 3 2 2 2 2 2 2 2 2 2 2 1 2 2 2 3 2 2 3 3 2
+ [181] 2 2 2 2 2 1 1 2 3 2 2 3 2 2 2 2 2 2 2 2 2 3 2 2 2 2 2 2 2 2 2 1 2 2 2 2 3 1 2 2 2 2 2 2 2
+ [226] 2 2 2 2 2 2 2 1 2 2 1 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 2 3 2 2 2 2 2 2 3 2 2 2 2
+ [271] 3 2 2 2 2 2 2 3 2 2 2 2 1 2 2 2 3 1 1 2 1 1 2 2 3 2 2 2 2 3 3 2 2 2 2 2 2 2 1 2 1 3 3 2 2
+ [316] 2 2 2 2 1 2 2 2 2 2 2 2 2 3 2 3 2 2 2 3 2 2 2 2 2 2 2 2 2 3 2 1 3 2 2 2 2 3 2 2 2 2 3 2 2
+ [361] 2 3 1 2 2 2 2 2 2 2 2 2 2 2 1 3 2 1 2 2 2 2 2 1 1 2 2 2 2 2 2 3 2 3 3 2 2 2 3 2 2 2 1 2 2
+ [406] 2 2 2 2 3 2 2 2 2 3 2 2 2 3 3 2 3 3 3 1 2 1 2 2 2 2 2 2 1 3 3 2 3 2 3 3 2 3 2 2 2 2 2 2 2
+ [451] 2 2 2 3 3 1 3 2 2 2 2 2 2 3 2 2 2 2 3 2 3 3 2 2 2 3 2 2 2 2 2 2 2 2 2 2 1 2 1 2 1 3 2 2 2
+ [496] 2 3 3 2 3 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 2 2 2 2 2 2 2 1 2 3 2 2
+ [541] 2 2 2 2 2 3 1 2 1 2 2 2 2 2 1 3 2 2 2 3 1 1 1 2 1 1 3 1 1 1 2 1 2 1 1 1 3 1 1 1 1 1 3 3 3
+ [586] 1 2 1 1 3 1 1 3 3 3 1 2 3 3 2 2 2 1 3 2 1 2 3 2 2 2 1 3 2 1 3 2 2 2 2 3 2 3 2 1 2 1 1 1 1
+ [631] 2 1 2 2 3 2 2 2 2 2 2 2 2 2 2 2 2 2 3 2 1 2 2 2 2 2 2 2 3 2 2 2 2 3 3 2 2 2 2 2 2 2 3 2 2
+ [676] 2 2 2 2 3 2 1 1 3 2 3 2 3 3 2 2 3 1 2 2 2 2 1 3 2 3 3 2 2 3 2 2 2 2 3 3 2 3 2 1 1 2 2 2 3
+ [721] 2 2 2 3 3 1 2 1 2 1 2 2 2 3 2 3 1 2 2 2 2 2 2 2 2 3 2 3 2 3 2 2 1 1 3 2 3 3 1 1 2 1 2 1 2
+ [766] 3 3 2 1 1 2 2 1 2 2 3 2 2 2 3 1 1 2 3 2 3 2 2 2 2 2 3 2 1 2 2 2 3 1 3 2 3 3 1 1 2 2 1 2 1
+ [811] 2 2 2 2 3 2 2 2 2 2 2 1 1 2 2 3 3 3 2 2 2 2 2 2 2 2 2 2 3 2 2 3 2 3 2 2 2 2 2 2 2 2 2 2 2
+ [856] 2 2 2 3 3 2 2 2 2 1 2 2 3 2 2 2 2 3 2 2 2 2 2 2 2 2 2 2 3 2 2 2 2 2 2 2 2 2 2 2 2 1 2 3 2
+ [901] 2 2 2 2 3 2 2 2 3 2 2 2 2 3 2 2 2 2 3 2 3 2 2 2 2 2 2 2 2 3 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3
+ [946] 2 2 2 2 2 2 2 2 2 2 2 2 3 2 2 2 2 2 1 2 1 1 1 1 2 2 2 2 2 2 2 2 2 2 1 2 1 2 2 2 2 2 2 2 3
+ [991] 2 3 1 1 3 2 2 2 2 1
+ [ reached getOption("max.print") -- omitted 2630 entries ]
+
+Within cluster sum of squares by cluster:
+[1] 143201.1 126793.1 103320.5
+ (between_SS / total_SS =  50.7 %)
+
+Available components:
+
+[1] "cluster"      "centers"      "totss"        "withinss"     "tot.withinss" "betweenss"   
+[7] "size"         "iter"         "ifault"      
+
+
+
+
+cluster_labels_k    0    1
+               1  226  276
+               2  540 1858
+               3  655   75
+
+
+cluster_labels_hc    0    1
+                1  751   77
+                2  381 1730
+                3  289  402
+
+
+Importance of components:
+                          PC1    PC2     PC3     PC4     PC5     PC6     PC7     PC8     PC9
+Standard deviation     2.5080 1.5079 1.22724 1.15487 1.00497 0.93836 0.82103 0.78682 0.63093
+Proportion of Variance 0.3931 0.1421 0.09413 0.08336 0.06312 0.05503 0.04213 0.03869 0.02488
+Cumulative Proportion  0.3931 0.5352 0.62936 0.71271 0.77584 0.83087 0.87300 0.91169 0.93657
+                          PC10    PC11    PC12    PC13    PC14   PC15    PC16
+Standard deviation     0.62777 0.45514 0.39734 0.34689 0.29089 0.1745 0.14257
+Proportion of Variance 0.02463 0.01295 0.00987 0.00752 0.00529 0.0019 0.00127
+Cumulative Proportion  0.96120 0.97415 0.98402 0.99154 0.99683 0.9987 1.00000
+
+
+
+# calculate the proportion of explained variance (PEV) from the std values
+> pc_students_var <- pc_students$sdev^2
+> pc_students_var
+ [1] 6.28985079 2.27371651 1.50613028 1.33373574 1.00997242 0.88051015 0.67409072 0.61908111
+ [9] 0.39807212 0.39409440 0.20715082 0.15787612 0.12033198 0.08461685 0.03044243 0.02032758
+> pc_students_PEV <- pc_students_var / sum(pc_students_var)
+> pc_students_PEV
+ [1] 0.393115674 0.142107282 0.094133143 0.083358484 0.063123276 0.055031884 0.042130670
+ [8] 0.038692569 0.024879507 0.024630900 0.012946926 0.009867258 0.007520749 0.005288553
+[15] 0.001902652 0.001270473
+
+
+ pc_students_loadings
+                                                        PC1         PC2         PC3
+Age.at.enrollment                               0.017768109  0.34032154  0.18857376
+Curricular.units.1st.sem..credited.             0.300429207  0.27891751  0.28167390
+Curricular.units.1st.sem..enrolled.             0.360828606  0.14203512  0.13191593
+Curricular.units.1st.sem..evaluations.          0.308187739  0.14895796 -0.12955616
+Curricular.units.1st.sem..approved.             0.364581847 -0.16148194  0.03158976
+Curricular.units.1st.sem..grade.                0.252175711 -0.39741235 -0.22691609
+Curricular.units.1st.sem..without.evaluations.  0.058594712  0.35304314 -0.53548836
+Curricular.units.2nd.sem..credited.             0.300127250  0.27616074  0.27435128
+Curricular.units.2nd.sem..enrolled.             0.349122650  0.08276082  0.08743131
+Curricular.units.2nd.sem..evaluations.          0.302746269  0.03348687 -0.18146899
+Curricular.units.2nd.sem..approved.             0.339630466 -0.23339629 -0.01526988
+Curricular.units.2nd.sem..grade.                0.252198082 -0.41814776 -0.20025556
+Curricular.units.2nd.sem..without.evaluations.  0.031920785  0.32537028 -0.56408803
+Unemployment.rate                               0.022298504  0.05195150 -0.05729035
+Inflation.rate                                  0.002924948  0.05370191  0.12957158
+GDP                                            -0.014423324 -0.17425797  0.13126663
+                                                        PC4          PC5         PC6
+Age.at.enrollment                              -0.014604063  0.064603076  0.74623223
+Curricular.units.1st.sem..credited.             0.069339702  0.053701233 -0.18492613
+Curricular.units.1st.sem..enrolled.             0.015993887 -0.013875091 -0.07041437
+Curricular.units.1st.sem..evaluations.         -0.033501832 -0.017942135  0.29852330
+Curricular.units.1st.sem..approved.            -0.014654683  0.003100605 -0.12142296
+Curricular.units.1st.sem..grade.               -0.037791391 -0.054540445  0.20216235
+Curricular.units.1st.sem..without.evaluations.  0.143831333 -0.058664528 -0.15438440
+Curricular.units.2nd.sem..credited.             0.076443628  0.063557614 -0.21934172
+Curricular.units.2nd.sem..enrolled.             0.002376818  0.002574633 -0.07920562
+Curricular.units.2nd.sem..evaluations.         -0.002579754 -0.026335265  0.34099247
+Curricular.units.2nd.sem..approved.            -0.017275271  0.012116525 -0.16382650
+Curricular.units.2nd.sem..grade.               -0.023618336 -0.035537101  0.11773459
+Curricular.units.2nd.sem..without.evaluations.  0.143927276 -0.049988718 -0.10615995
+Unemployment.rate                              -0.680572870  0.339547789 -0.03810987
+Inflation.rate                                 -0.199930151 -0.925290200  0.00302629
+GDP                                             0.663845914  0.076807642  0.10642152
+                                                       PC7          PC8         PC9
+Age.at.enrollment                              -0.50582327  0.126782423 -0.07172964
+Curricular.units.1st.sem..credited.            -0.07522039 -0.015393274  0.40915200
+Curricular.units.1st.sem..enrolled.             0.05193198  0.023833886 -0.41556608
+Curricular.units.1st.sem..evaluations.          0.41296143 -0.212152449  0.16348465
+Curricular.units.1st.sem..approved.            -0.19549322  0.038112082  0.06952703
+Curricular.units.1st.sem..grade.               -0.12506460  0.003015429  0.12924641
+Curricular.units.1st.sem..without.evaluations. -0.14287077 -0.024618925 -0.03534424
+Curricular.units.2nd.sem..credited.            -0.06876969  0.001607858  0.35546865
+Curricular.units.2nd.sem..enrolled.             0.08249854  0.082216839 -0.65870291
+Curricular.units.2nd.sem..evaluations.          0.48631427 -0.094939127  0.09488869
+Curricular.units.2nd.sem..approved.            -0.26691792  0.067525725 -0.05354496
+Curricular.units.2nd.sem..grade.               -0.25231252  0.032632823  0.12667161
+Curricular.units.2nd.sem..without.evaluations. -0.14518334  0.292701176  0.04659200
+Unemployment.rate                               0.16355753  0.596816575  0.08757612
+Inflation.rate                                  0.04308125  0.271532104  0.06513312
+GDP                                             0.24155937  0.631704750  0.05470312
+                                                       PC10         PC11         PC12
+Age.at.enrollment                               0.037433560 -0.055423415  0.003424852
+Curricular.units.1st.sem..credited.            -0.006556310  0.082062544 -0.102591630
+Curricular.units.1st.sem..enrolled.            -0.016655427  0.215001857 -0.001609325
+Curricular.units.1st.sem..evaluations.          0.127347244  0.412807996  0.556124955
+Curricular.units.1st.sem..approved.             0.011190969  0.043708251 -0.085422891
+Curricular.units.1st.sem..grade.               -0.009818717  0.504965948 -0.535932487
+Curricular.units.1st.sem..without.evaluations.  0.697096605 -0.088025400 -0.144465975
+Curricular.units.2nd.sem..credited.            -0.048294314 -0.092449177 -0.105707817
+Curricular.units.2nd.sem..enrolled.            -0.053274114 -0.009499016 -0.095128037
+Curricular.units.2nd.sem..evaluations.         -0.149264678 -0.587812905 -0.333311664
+Curricular.units.2nd.sem..approved.             0.040689798 -0.306809227  0.356657509
+Curricular.units.2nd.sem..grade.                0.037882272 -0.222660744  0.304209956
+Curricular.units.2nd.sem..without.evaluations. -0.640556738  0.094762190  0.107397867
+Unemployment.rate                               0.147492549  0.016845006 -0.006002712
+Inflation.rate                                  0.059345395 -0.015162014  0.014590196
+GDP                                             0.172527369  0.039292987  0.044078541
+                                                      PC13         PC14          PC15
+Age.at.enrollment                               0.06949210 -0.024584697 -0.0065964478
+Curricular.units.1st.sem..credited.            -0.12666260  0.349840624  0.5220244549
+Curricular.units.1st.sem..enrolled.            -0.10205053  0.397351345  0.0451384239
+Curricular.units.1st.sem..evaluations.          0.08457913 -0.129779378 -0.0591146603
+Curricular.units.1st.sem..approved.             0.58092933  0.343269540 -0.5164573333
+Curricular.units.1st.sem..grade.               -0.04880294 -0.259331363  0.1778667306
+Curricular.units.1st.sem..without.evaluations. -0.01553043  0.008264842 -0.0056854993
+Curricular.units.2nd.sem..credited.            -0.24090663 -0.493970964 -0.4300191147
+Curricular.units.2nd.sem..enrolled.            -0.21181049 -0.252048887 -0.0307264014
+Curricular.units.2nd.sem..evaluations.          0.09121580  0.081156467  0.0611680547
+Curricular.units.2nd.sem..approved.             0.36161505 -0.364319834  0.4520178172
+Curricular.units.2nd.sem..grade.               -0.61470569  0.264083420 -0.1719883110
+Curricular.units.2nd.sem..without.evaluations.  0.02169271  0.010389239  0.0017664836
+Unemployment.rate                              -0.02283504  0.010961927  0.0003728552
+Inflation.rate                                  0.00428924 -0.017370086 -0.0006348145
+GDP                                             0.02446921 -0.000411996 -0.0034682489
+                                                       PC16
+Age.at.enrollment                               0.004261840
+Curricular.units.1st.sem..credited.             0.330414167
+Curricular.units.1st.sem..enrolled.            -0.658797847
+Curricular.units.1st.sem..evaluations.          0.099095772
+Curricular.units.1st.sem..approved.             0.221720412
+Curricular.units.1st.sem..grade.               -0.075966249
+Curricular.units.1st.sem..without.evaluations. -0.006643511
+Curricular.units.2nd.sem..credited.            -0.245547051
+Curricular.units.2nd.sem..enrolled.             0.537182186
+Curricular.units.2nd.sem..evaluations.         -0.072446847
+Curricular.units.2nd.sem..approved.            -0.182157030
+Curricular.units.2nd.sem..grade.                0.065209333
+Curricular.units.2nd.sem..without.evaluations.  0.010214190
+Unemployment.rate                              -0.016458831
+Inflation.rate                                  0.007900646
+GDP                                            -0.004594198
+
+
