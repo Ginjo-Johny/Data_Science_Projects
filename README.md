@@ -1,6 +1,3 @@
-# Data_Science_Projects
-Predictive Modelling for Student Dropout Prevention in Higher Education Institutions : A Machine Learning Approach
-
 # Introduction
 
 In today's educational landscape, the challenge of student attrition looms large, posing a significant obstacle to both individual academic success and institutional effectiveness. Every dropout represents not just a loss of potential, but also a failure of the educational system to support and nurture its students adequately. Recognizing the critical importance of addressing this issue, our project delves into the realm of predictive modeling, harnessing the power of machine learning to develop proactive strategies for student dropout prevention.
